@@ -17,11 +17,13 @@
             transition: .5s ease all;
             float: left;
             left: 0;
-            width: 150%;
-            height:100%;
-            overflow:auto;
-            opacity: 0;
+            top: 0;
+            overflow: hidden;
+            width: 160px;
+            height: 100%;
+            z-index: 1;
             position: fixed;
+            opacity: 0;
             top: 35px;
             visibility: hidden;
             z-index: 1;
@@ -46,7 +48,16 @@
             transform: translateY(0px);
             transition: .5s ease all;
         }
+.btn-group-vertical{
+     left: 0;
+            top: 0;
+            overflow: hidden;
+            width: 160px;
+            height: 100%;
+            z-index: 1;
+            position: fixed;
 
+}
         @import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
     </style>
     <title>Document</title>
@@ -80,7 +91,7 @@
 
             <button class="btn btn-dark btn-lg dropdown-toggle rounded-0" type="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                medan
+                ukuran
             </button>        <!-- Large button groups (default and split) -->
 
             <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
@@ -94,15 +105,9 @@
             </div>
             <button class="btn btn-dark btn-lg dropdown-toggle rounded-0" type="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                posisi
+                unit
             </button>        <!-- Large button groups (default and split) -->
 
-            <button class="btn btn-dark btn-lg dropdown-toggle rounded-0" type="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                ukuran
-            </button>        <!-- Large button groups (default and split) -->
-
-            
         </div>
     </div>
     </div>
